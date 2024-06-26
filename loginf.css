@@ -1,0 +1,73 @@
+body{
+    background-color:rgb(131, 225, 224) ;
+    
+}
+div{
+    border:2px solid rgb(14, 16, 15);
+    margin: 0 auto;
+    width: 490px;
+   border-radius: 13px;
+    background-color: rgb(228, 236, 231);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 512px;
+    position: relative;
+    top: 170px;
+}
+h2{
+    font-size: 70px;
+    font-family: "黑体";
+    text-align: center;
+    color:aquamarine;
+    text-shadow: rgb(198, 156, 39) 2px 2px;
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 1px;
+    margin-right: 200px;
+    margin-left: 10px;
+    margin-top:1px ;
+    border: 2px solid #ddd;
+    border-radius: 16px;}
+button{
+    position: relative;
+    left:15px;
+    width: 60px;
+    padding: 10px;
+    background-color: #1e2d3d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 16px;
+}
+h4{
+    font-size: 20px;
+    font-family: "黑体";
+    
+}
+button:hover{
+    background-color: rgb(159, 234, 204);
+    color:aqua;
+
+}
+a{
+    text-decoration: none;
+    color:rgb(240, 234, 234);
+}
+.video-background {
+    position: fixed;
+    top:1px;
+    bottom: 1px;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; 
+    object-fit: cover; 
+
+  }
